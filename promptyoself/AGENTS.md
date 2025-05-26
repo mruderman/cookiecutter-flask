@@ -143,7 +143,7 @@ prompty reminders create \
 * **Database** – `pytest.fixture(scope="function")` spins up a SQLite file in `/tmp`, rolls back after each test.
 * **Markers** – Tag anything that takes > 1 s with `@pytest.mark.slow` so devs can skip locally.
 * **Coverage fail-under** – `pytest --cov --cov-fail-under=85`, enforced in GitHub Actions.
-* **Pre-commit hook** – `pytest -q` runs on staged code for instant feedback.
+* **Pre-commit hook** – `pytest -q` runs on staged code for instant feedback.  
 
 ---
 
